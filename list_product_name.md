@@ -1,0 +1,4 @@
+Here’s what each name suggests:
+2. **Al-Kawthar Space (الْكَوْثَر) — The Abundant Stream**
+   - **The Source:** Surah Al-Kawthar. The Prophet (ﷺ) described it as a specific river granted to him in Paradise whose banks are made of hollow pearls and whose clay is pure musk. The word Kawthar itself linguistically stems from Kathrah, meaning "abundance."
+   - **The Metaphor:** It is a river of endless bounty where whoever drinks from it will never thirst again. For a digital community, this represents an abundance of support, resources, and shared wisdom. A sister steps into this space to pour beautiful things and their journeys into others and leaves with her own cup completely overflowing.

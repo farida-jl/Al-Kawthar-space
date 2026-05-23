@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8f4f1;
+  color: #3d2e27;
+}
+
+::selection {
+  background: #c8d5c7;
+  color: #3d2e27;
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .soft-card {
+    @apply rounded-lg border border-[rgba(61,46,39,0.10)] bg-white shadow-soft;
+  }
+
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-[0.16em] text-sage-base;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-sage-base px-5 py-3 text-sm font-semibold text-white transition hover:bg-brown-base focus:outline-none focus:ring-2 focus:ring-steel-base focus:ring-offset-2 focus:ring-offset-ivory;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border border-[rgba(61,46,39,0.14)] bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:border-sage-base hover:text-sage-base focus:outline-none focus:ring-2 focus:ring-steel-base focus:ring-offset-2 focus:ring-offset-ivory;
+  }
+
+  .input-field {
+    @apply w-full rounded-md border border-[rgba(61,46,39,0.14)] bg-white px-4 py-3 text-sm text-ink outline-none transition placeholder:text-muted focus:border-steel-base focus:ring-2 focus:ring-steel-light;
+  }
+}
